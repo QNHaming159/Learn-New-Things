@@ -29,7 +29,7 @@ int printEnd(float a, float b, float c)
     cout << "Edge b: " << b << endl;
     cout << "Edge c: " << c << endl << endl;
 
-    if (a+b>c and a+c>b and b+c>a and a>0 and b>0 and c>0)
+    if (a+b>c and a+c>b and b+c>a)
     {
        if (a*a==b*b+c*c or b*b==a*a+c*c or c*c==a*a+b*b)
         {
