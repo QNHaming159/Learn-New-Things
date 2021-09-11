@@ -72,7 +72,7 @@ int main()
 
     while (again == 'Y' or again == 'y')
     {
-        int check = false;
+        bool check = false;
         printA();
         while (!(cin>>a))
         {
