@@ -20,7 +20,7 @@ int printC(float a,float b)
     cout << "Edge b: " << b << endl;
     cout << "Edge c: ";
 }
-int printEnd(float a, float b, float c)
+int printEnd(float a,float b,float c)
 {
     string triangletype;
     float p,s;
