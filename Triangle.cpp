@@ -97,6 +97,7 @@ int main()
         while (!check)
         {
             printEnd(a,b,c);
+            cin.ignore();
             cin >> again;
             if (again=='Y' or again=='N' or again=='y' or again=='n')
             {
